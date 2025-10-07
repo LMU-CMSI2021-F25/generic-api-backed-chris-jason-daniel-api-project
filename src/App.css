@@ -6,9 +6,16 @@
   padding: 2rem;
   text-align: center;
 }
-
+button {
+  transition: width 2s;
+}
+button:hover {
+  width: 400px;
+}
 table {
-  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
   border-collapse: collapse;
   margin-left: auto;
@@ -18,7 +25,9 @@ table {
 td {
   border: 2px solid black;
   flex-wrap: wrap;
+  transition: width 2s;
 }
+
 body {
   background-image: url("assets/rebel_logo_backgound.png");
   background-size: cover;

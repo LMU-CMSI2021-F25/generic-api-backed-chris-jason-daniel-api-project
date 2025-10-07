@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import intelLogo from '/src/assets/AllianceIntelligence.svg'
+import jediLogo from '/src/assets/Rebel_Alliance_Logo.svg'
 
 function setColumns(dropdown) {
   if (dropdown == "starships") {
@@ -35,6 +37,11 @@ export default function App() {
   return (
     <div className="App">
       <h1>Rebel Alliance Intelligence Database</h1>
+      <div class="container">
+        <div><img src={intelLogo} alt="intel logo" width="300" height="200"></img></div>
+        <div></div>
+        <div><img src={jediLogo} alt="jedi logo" width="300" height="200"></img></div>
+      </div>
       {credentials != true ? (
         <button onClick={(x) => credentialsVerify(true)}>
           Please input credentials.

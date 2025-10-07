@@ -7,10 +7,11 @@
   text-align: center;
 }
 button {
-  transition: width 2s;
+  width: 300px;
 }
 button:hover {
   width: 400px;
+  transition: width 1s;
 }
 table {
   display: flex;

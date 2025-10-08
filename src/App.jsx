@@ -110,6 +110,7 @@ function setColumn(dropdown) {
           <tbody></tbody>
         )}
       </table>
+      <footer><p>App created by Christian Love, Daniel Rowe, Jason Lopez. Github repository link:https://github.com/LMU-CMSI2021-F25/generic-api-backed-chris-jason-daniel-api-project </p></footer>
     </div>
   );
 }

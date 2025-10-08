@@ -41,13 +41,13 @@ body {
   padding: 10px;
 }
 h1 {
-position: sticky;
-top: 50px;
-text-align: center;
+  position: sticky;
+  top: 50px;
+  text-align: center;
 }
-footer{
-  background-color:rgb(255, 255, 255);
-  position: absolute;
+footer {
+  background-color: rgb(255, 255, 255);
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;

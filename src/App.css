@@ -33,6 +33,7 @@ body {
   background-image: url("assets/rebel_logo_backgound.png");
   background-size: cover;
   font-family: Space Grotesk;
+  color: black;
 }
 .container {
   flex-direction: column;
